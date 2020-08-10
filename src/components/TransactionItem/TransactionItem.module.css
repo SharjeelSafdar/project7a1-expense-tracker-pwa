@@ -7,7 +7,7 @@
     width: 92%;
     font-size: 16px;
     padding: 5px;
-    box-shadow: 0 0 5px;
+    box-shadow: 0 0 5px whitesmoke;
     margin: 10px auto !important;
     border: thin solid whitesmoke;
     transition: all 0.2s ease;
@@ -20,10 +20,12 @@
 
 .plus:hover {
     border: thin solid #2ecc71 !important;
+    box-shadow: 0 0 5px #2ecc71;
 }
 
 .minus:hover {
     border: thin solid #f86a5b !important;
+    box-shadow: 0 0 5px #f86a5b;
 }
 
 .transAmount {

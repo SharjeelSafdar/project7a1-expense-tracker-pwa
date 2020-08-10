@@ -49,7 +49,9 @@
     margin: 20px 0 10px 0;
 }
 
-.container h4 {
+.container p {
+    font-weight: 700;
+    font-size: 17px;
     margin: 0;
 }
 

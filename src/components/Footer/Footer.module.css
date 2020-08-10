@@ -9,6 +9,20 @@
     text-align: center;
 }
 
-.container a {
-    color: green;
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto 20px;
+}
+
+.socialIcon {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s linear;
+}
+.socialIcon:hover {
+    transform: scale(1.2, 1.2);
 }
