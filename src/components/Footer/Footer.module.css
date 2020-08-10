@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    z-index: 10;
+    margin: 0;
+    padding: 10px 0;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container a {
+    color: green;
+}

@@ -1,0 +1,94 @@
+.container {
+    width: 95%;
+    border: thin solid whitesmoke;
+    border-color: whitesmoke;
+    color: white;
+    padding: 10px;
+}
+
+.description, .date, .time, .amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: thin solid whitesmoke;
+    box-shadow: 0 0 5px;
+}
+
+.input {
+    height: 20px;
+    width: 70%;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: thin solid gray;
+    padding: 2px 5px;
+}
+
+.addBtn, .calcBtn {
+    width: 49%;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    border: 0;
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px 0;
+    transition: all 0.2s linear;
+}
+
+.addBtn:hover, .calcBtn:hover {
+    opacity: 0.8;
+    transform: scale(1.05, 1.05);
+}
+
+.addBtn {
+    background-color: #2ba8be;
+    margin-right: 1%;
+}
+.calcBtn {
+    background-color: rgb(106, 214, 106);
+    margin-left: 1%;
+}
+
+.addBtn img, .calcBtn img {
+    width: 23px;
+    height: 23px;
+    padding-right: 10px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.btnText {
+    font-size: 16px;
+    margin: 0;
+    display: inline-block;
+}
+
+.footNote {
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+}
+
+@media (max-width: 1000px) {
+    .input {
+        width: 50%;
+    }
+    .addBtn, .calcBtn {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        transform: translate(-7px, 0);
+    }
+}

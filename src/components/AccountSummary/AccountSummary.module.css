@@ -1,0 +1,64 @@
+.container {
+    width: 100%;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    justify-content: space-evenly;
+}
+
+.balance, .income, .expense {
+    width: 100px;
+    height: auto;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.balanceImage, .incomeImage, .expenseImage {
+    margin: 0 !important;
+    width: 100px;
+    height: 100px;
+    border-radius: 50pc;
+    box-shadow: 0 0px 20px #a0a0a0;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+.balanceImage:hover, .incomeImage:hover, .expenseImage:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 0.9;
+}
+
+.balanceImage {background: #54d7ee;}
+.incomeImage {background: rgb(106, 214, 106);}
+.expenseImage {background: #f79287;}
+
+.image {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.container h2 {
+    margin: 20px 0 10px 0;
+}
+
+.container h4 {
+    margin: 0;
+}
+
+@media (max-width: 400px) {
+    .balance, .income, .expense {
+        width: 80px;
+    }
+    .balanceImage, .incomeImage, .expenseImage {
+        width: 80px;
+        height: 80px;
+    }
+}

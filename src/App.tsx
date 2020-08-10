@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Components's Imports
+import { Header, AccountSummary, NewTransaction, TransactionHistory, Calculator, Footer} 
+	from './components/components';
+// Import Provider for GolbalContext.
+import { GlobalProvider } from './context/GlobalProvider';
+// Styles
+import styles from './App.module.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className={styles.shadow}>
+			<Header />
+				<div className={styles.back}>
+				<div className={styles.container}>
+				{/* The following div is to provide a partially transparent background. */}
+					<GlobalProvider>
+						<div className={styles.leftContainer}>
+							<AccountSummary />
+							<NewTransaction />
+						</div>
+						<div className={styles.rightContainer}>
+							<TransactionHistory />
+						</div>
+						<Calculator />
+					</GlobalProvider>
+				</div>
+				</div>
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
