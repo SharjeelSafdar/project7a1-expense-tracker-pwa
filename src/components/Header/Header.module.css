@@ -22,3 +22,10 @@
     color: rgb(33, 51, 70);
     margin: 20px 0 15px 0;
 }
+
+@media (max-width: 500px) {
+    .logo {
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+}

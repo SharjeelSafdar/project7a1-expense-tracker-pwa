@@ -1,6 +1,6 @@
 import React from 'react';
 // Components's Imports
-import { Header, AccountSummary, NewTransaction, TransactionHistory, Calculator, Footer} 
+import { Header, AccountSummary, NewTransaction, TransactionHistory, Calculator, Footer } 
 	from './components/components';
 // Import Provider for GolbalContext.
 import { GlobalProvider } from './context/GlobalProvider';
