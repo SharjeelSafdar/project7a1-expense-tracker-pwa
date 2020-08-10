@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className={styles.container}>
             <h2>My Expense Tracker</h2>
-            <h5>Made By</h5>
+            <p>Made By</p>
             <h3>Mian Muhammad Sharjeel Safdar</h3>
             <h4>
                 <a  href="https://www.google.com" 

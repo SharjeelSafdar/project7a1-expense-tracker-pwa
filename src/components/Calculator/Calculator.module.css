@@ -83,3 +83,7 @@
 .calcRow {
     margin: 0 2px;
 }
+
+.container img {
+    pointer-events: none;
+}

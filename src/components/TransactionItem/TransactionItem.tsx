@@ -37,7 +37,7 @@ const TransactionItem: React.FC<Props> = ({ transaction }) => {
                     className={styles.editBtn}
                     onClick={() => editTransaction && editTransaction(transaction.id)}
                 >
-                    <img src="/images/edit.png" alt="Edit" />
+                    <img src="/images/edit.svg" alt="Edit" />
                 </button>
                 <button 
                     className={styles.delBtn} 

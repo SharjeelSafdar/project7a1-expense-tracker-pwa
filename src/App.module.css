@@ -8,7 +8,7 @@ html, body, #root {
 }
 
 .container {
-    background: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to right, hsl(120, 25%, 18%), rgb(68, 59, 46));
     padding: 100px 0 40px;
     display: grid;
     grid-template-columns: 7fr 40fr 6fr 40fr 7fr;
@@ -26,18 +26,10 @@ html, body, #root {
     justify-self: center;
 }
 
-.back {
-    background: url("/images/bg_image.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-width: 100%;
-    min-height: 100%;
-}
-
 @media (max-width: 750px) {
     .container {
         display: flex;
+        background: linear-gradient(to bottom, hsl(120, 25%, 18%), rgb(51, 44, 34));
         flex-direction: column;
         justify-content: center;
         align-items: center;

@@ -6,7 +6,7 @@ const Header = () => (
     <div className={styles.container}>
         <img 
             className={styles.logo}
-            src="/images/logo.png" 
+            src="/images/logo.svg" 
             alt="App Logo" 
             title="My Expense Tracker Logo"
         />

@@ -24,7 +24,6 @@
     height: 100px;
     border-radius: 50pc;
     box-shadow: 0 0px 20px #a0a0a0;
-    user-select: none;
     transition: all 0.3s ease;
 }
 .balanceImage:hover, .incomeImage:hover, .expenseImage:hover {
@@ -37,6 +36,7 @@
 .expenseImage {background: #f79287;}
 
 .image {
+    pointer-events: none;
     height: 50px;
     width: 50px;
     margin: 0;

@@ -97,12 +97,12 @@ const NewTransaction: React.FC = () => {
 
                 {/* Add Transaction Button */}
                 <button className={styles.addBtn}>
-                    <img src="/images/add.png" alt="" />
+                    <img src="/images/add.svg" alt="" />
                     <p className={styles.btnText}>Add Transaction</p>
                 </button>
                 {/* Show Calculator Button */}
                 <button className={styles.calcBtn} onClick={showCalculator}>
-                    <img src="/images/calculator.png" alt="" />
+                    <img src="/images/calculator.svg" alt="" />
                     <p className={styles.btnText}>Open Calculator</p>
                 </button>
             </form>

@@ -27,7 +27,7 @@ const Calculator = () => {
                 <div className={styles.calcRow}>
                     <button onClick={() => setScreen('(')}>(</button>
                     <button onClick={() => setScreen(')')}>)</button>
-                    <button onClick={() => setScreen('CE')}><img src="/images/backspace.png" alt="CE"/></button>
+                    <button onClick={() => setScreen('CE')}><img src="/images/backspace.svg" alt="CE"/></button>
                     <button onClick={() => setScreen('C')}>C</button>
                 </div>
 

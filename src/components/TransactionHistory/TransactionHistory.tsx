@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import cx from 'classnames';
 // Components
-import { Transaction } from '../components';
+import { TransactionItem } from '../components';
 // Context
 import { GlobalContext } from '../../context/GlobalProvider';
 // Styles
@@ -17,12 +17,12 @@ const TransactionHistory: React.FC = () => {
             ?
                 (<ul>
                     {transactions.map( transaction => 
-                        <Transaction key={transaction.id} transaction={transaction}/>
+                        <TransactionItem key={transaction.id} transaction={transaction}/>
                     )}
                 </ul>)
             :
                 (<div className={styles.noTransaction}>
-                    <img className={styles.addIcon} src="/images/add2.png" alt=""/>
+                    <img className={styles.addIcon} src="/images/add2.svg" alt=""/>
                     <h4 className={styles.text}>Add transactions to see history.</h4>
                 </div>)
             }
