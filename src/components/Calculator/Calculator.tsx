@@ -4,6 +4,8 @@ import cx from 'classnames';
 import { GlobalContext } from '../../context/GlobalProvider';
 // Styles
 import styles from './Calculator.module.css';
+// Images
+import backSpace from '../../images/backspace.svg';
 
 const Calculator = () => {
     const { calcVisible, setCalculatorHidden, calcScreen, setCalcScreen } = useContext(GlobalContext);
@@ -27,7 +29,7 @@ const Calculator = () => {
                 <div className={styles.calcRow}>
                     <button onClick={() => setScreen('(')}>(</button>
                     <button onClick={() => setScreen(')')}>)</button>
-                    <button onClick={() => setScreen('CE')}><img src="/images/backspace.svg" alt="CE"/></button>
+                    <button onClick={() => setScreen('CE')}><img src={backSpace} alt="CE"/></button>
                     <button onClick={() => setScreen('C')}>C</button>
                 </div>
 

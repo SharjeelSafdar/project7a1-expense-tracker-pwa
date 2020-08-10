@@ -5,6 +5,9 @@ import { GlobalContext } from '../../context/GlobalProvider';
 import styles from './NewTransaction.module.css';
 // Types
 import { Transaction } from '../../types';
+// Images
+import addImg from '../../images/add.svg';
+import calcImg from '../../images/calculator.svg';
 
 const NewTransaction: React.FC = () => {
     // Extract the states from the GlobalContext to hold the contents of input boxes.
@@ -97,12 +100,12 @@ const NewTransaction: React.FC = () => {
 
                 {/* Add Transaction Button */}
                 <button className={styles.addBtn}>
-                    <img src="/images/add.svg" alt="" />
+                    <img src={addImg} alt="" />
                     <p className={styles.btnText}>Add Transaction</p>
                 </button>
                 {/* Show Calculator Button */}
                 <button className={styles.calcBtn} onClick={showCalculator}>
-                    <img src="/images/calculator.svg" alt="" />
+                    <img src={calcImg} alt="" />
                     <p className={styles.btnText}>Open Calculator</p>
                 </button>
             </form>
