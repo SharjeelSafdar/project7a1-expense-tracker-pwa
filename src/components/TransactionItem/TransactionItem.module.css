@@ -1,5 +1,5 @@
 .transactionItem {
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.56);
     color: whitesmoke;
     display: flex;
     flex-direction: row;

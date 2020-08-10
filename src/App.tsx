@@ -11,9 +11,7 @@ function App() {
 	return (
 		<div className={styles.shadow}>
 			<Header />
-				{/* <div className={styles.back}> */}
 				<div className={styles.container}>
-				{/* The following div is to provide a partially transparent background. */}
 					<GlobalProvider>
 						<div className={styles.leftContainer}>
 							<AccountSummary />
@@ -25,7 +23,6 @@ function App() {
 						<Calculator />
 					</GlobalProvider>
 				</div>
-				{/* </div> */}
 			<Footer />
 		</div>
 	);
