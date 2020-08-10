@@ -7,16 +7,16 @@ import { sortTransactions } from '../utils/utils';
 
 const transactions: Transaction[] = [
     // Dummy Transactions
-    { id: 1, description: "Flowers", amount: -30, date: new Date("June 11, 2020 13:11") },
-    { id: 2, description: "Salary", amount: 300, date: new Date("June 12, 2020 13:11") },
-    { id: 3, description: "Belt", amount: -50, date: new Date("June 13, 2020 13:11") },
-    { id: 4, description: "Payment", amount: 100, date: new Date("June 14, 2020 13:11") },
-    { id: 5, description: "Flowers", amount: -30, date: new Date("June 11, 2020 13:11") },
-    { id: 6, description: "Salary", amount: 300, date: new Date("June 12, 2020 13:11") },
-    { id: 7, description: "Belt", amount: -50, date: new Date("June 13, 2020 13:11") },
-    { id: 8, description: "Payment", amount: 100, date: new Date("June 14, 2020 13:11") },
-    { id: 9, description: "Belt", amount: -50, date: new Date("June 13, 2020 13:11") },
-    { id: 10, description: "Payment", amount: 100, date: new Date("June 14, 2020 13:11") },
+    // { id: 1, description: "Flowers", amount: -30, date: new Date("June 11, 2020 13:11") },
+    // { id: 2, description: "Salary", amount: 300, date: new Date("June 12, 2020 13:11") },
+    // { id: 3, description: "Belt", amount: -50, date: new Date("June 13, 2020 13:11") },
+    // { id: 4, description: "Payment", amount: 100, date: new Date("June 14, 2020 13:11") },
+    // { id: 5, description: "Flowers", amount: -30, date: new Date("June 11, 2020 13:11") },
+    // { id: 6, description: "Salary", amount: 300, date: new Date("June 12, 2020 13:11") },
+    // { id: 7, description: "Belt", amount: -50, date: new Date("June 13, 2020 13:11") },
+    // { id: 8, description: "Payment", amount: 100, date: new Date("June 14, 2020 13:11") },
+    // { id: 9, description: "Belt", amount: -50, date: new Date("June 13, 2020 13:11") },
+    // { id: 10, description: "Payment", amount: 100, date: new Date("June 14, 2020 13:11") },
 ];
 const amounts = transactions.map( transaction => transaction.amount );
 const total = amounts.reduce( (acc, amount) => acc += amount, 0 );
