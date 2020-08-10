@@ -53,6 +53,7 @@
 
 .text {
     text-align: center;
+    font-size: 16px;
 }
 
 .noTransaction {
@@ -62,6 +63,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.emptyContainer {
+    background: rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 750px) {

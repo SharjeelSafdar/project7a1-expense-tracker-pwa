@@ -23,7 +23,7 @@ const TransactionHistory: React.FC = () => {
             :
                 (<div className={styles.noTransaction}>
                     <img className={styles.addIcon} src="/images/add2.svg" alt=""/>
-                    <h4 className={styles.text}>Add transactions to see history.</h4>
+                    <p className={styles.text}>Add transactions to see history.</p>
                 </div>)
             }
         </fieldset>
