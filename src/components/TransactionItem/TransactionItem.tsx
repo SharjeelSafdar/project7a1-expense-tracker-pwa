@@ -6,8 +6,6 @@ import { GlobalContext } from '../../context/GlobalProvider';
 import styles from './TransactionItem.module.css';
 // Types
 import { Transaction } from '../../types';
-// Images
-import editImg from '../../images/edit.svg';
 
 interface Props {
     transaction: Transaction
@@ -39,7 +37,7 @@ const TransactionItem: React.FC<Props> = ({ transaction }) => {
                     className={styles.editBtn}
                     onClick={() => editTransaction && editTransaction(transaction.id)}
                 >
-                    <img src={editImg} alt="Edit" />
+                    <img src="/images/edit.svg" alt="Edit" />
                 </button>
                 <button 
                     className={styles.delBtn} 
