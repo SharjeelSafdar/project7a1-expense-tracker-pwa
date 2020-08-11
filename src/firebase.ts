@@ -1,13 +1,13 @@
 import firebase from 'firebase';
 
 var firebaseConfig = {
-    apiKey: "AIzaSyAIHHrZB-JRqq0XVCp8NicXCE_wZ1CW8Qw",
-    authDomain: "expense-tracker-project7-3ff82.firebaseapp.com",
-    databaseURL: "https://expense-tracker-project7-3ff82.firebaseio.com",
-    projectId: "expense-tracker-project7-3ff82",
-    storageBucket: "expense-tracker-project7-3ff82.appspot.com",
-    messagingSenderId: "164630845172",
-    appId: "1:164630845172:web:ef83173cfccff9e926b0a1"
+    apiKey: "AIzaSyCUqN4yd9tN6kkIMhj-rZtxOIfLS138z6I",
+    authDomain: "project7a1-expense-tracker.firebaseapp.com",
+    databaseURL: "https://project7a1-expense-tracker.firebaseio.com",
+    projectId: "project7a1-expense-tracker",
+    storageBucket: "project7a1-expense-tracker.appspot.com",
+    messagingSenderId: "910997723735",
+    appId: "1:910997723735:web:f9b4a9e4b33fc10e5ee112"
 };
 
 // Initialize Firebase
