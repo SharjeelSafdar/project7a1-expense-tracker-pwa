@@ -12,7 +12,7 @@ const Header = () => (
             title="My Expense Tracker Logo"
         />
         <h2 className={styles.title}>
-            My Expense Tracker
+            Expense Tracker App
         </h2>
     </div>
 );

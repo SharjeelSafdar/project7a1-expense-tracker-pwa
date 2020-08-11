@@ -9,7 +9,7 @@ import styles from './Footer.module.css';
 const Footer = () => {
     return (
         <div className={styles.container}>
-            <h2>My Expense Tracker</h2>
+            <h2>Expense Tracker App</h2>
             <p>Made By</p>
             <h3>Mian Muhammad Sharjeel Safdar</h3>
             <IconContext.Provider value={{ color: "white", size: "2rem", }}>
