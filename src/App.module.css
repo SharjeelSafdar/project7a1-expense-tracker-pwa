@@ -26,7 +26,7 @@ html, body, #root {
     justify-self: center;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .container {
         display: flex;
         background: linear-gradient(to bottom, hsl(120, 25%, 18%), rgb(46, 40, 31));

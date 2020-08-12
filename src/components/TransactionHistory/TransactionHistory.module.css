@@ -69,7 +69,7 @@
     background: rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .emptyContainer {
         height: fit-content;
     }
