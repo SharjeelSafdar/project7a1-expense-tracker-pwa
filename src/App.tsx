@@ -14,8 +14,8 @@ function App() {
 		.then( () => messaging.getToken() )
 		.then( token => {
 			console.log(`Token: ${token}`);
-			prompt('Token', token);
 		})
+		.catch( err => console.log('Error: '+err) )
 	return (
 		<div className={styles.shadow}>
 			<Header />
